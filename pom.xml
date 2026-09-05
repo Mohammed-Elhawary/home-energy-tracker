@@ -21,6 +21,7 @@
 
     <modules>
         <module>User-service</module>
+        <module>device_service</module>
     </modules>
 
     <properties>
