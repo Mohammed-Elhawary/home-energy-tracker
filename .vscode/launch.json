@@ -1,6 +1,12 @@
 {
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "IngestionServiceApplication",
+            "request": "launch",
+            "mainClass": "com.micro.ingestion_service.IngestionServiceApplication",
+            "projectName": "ingestion_service"
+        },
         {
             "type": "java",
             "name": "HomeEnergyTrackerApplication",
