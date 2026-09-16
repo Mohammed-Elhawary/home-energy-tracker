@@ -29,7 +29,7 @@ public class IngestionService {
                 .build();
         
         log.info("Ingesting energy usage data: {}", event);
-        kafkaTemplate.send("energy-usage-topic", event);
+        kafkaTemplate.sendDefault( event);
     }
 }
     

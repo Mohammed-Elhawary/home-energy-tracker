@@ -8,5 +8,6 @@ import com.micro.device_service.entity.Devices;
 @Repository
 public interface DeviceRepository extends JpaRepository<Devices, Long> {
     
+
+
 }
-    

@@ -21,8 +21,10 @@
 
     <modules>
         <module>User-service</module>
+        <module>alert-service</module>
         <module>device_service</module>
         <module>ingestion_service</module>
+        <module>usage_service</module>
     </modules>
 
     <properties>
