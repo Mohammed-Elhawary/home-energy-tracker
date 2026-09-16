@@ -1,3 +1,6 @@
+
+
+
 # Getting Started with Home Energy Tracker
 ## How to start the application
 
