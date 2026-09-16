@@ -1,5 +1,27 @@
 {
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "HomeEnergyTrackerApplication",
+            "request": "launch",
+            "mainClass": "com.micro.user_service.HomeEnergyTrackerApplication",
+            "projectName": "User-service"
+        },
+        {
+            "type": "java",
+            "name": "DeviceServiceApplication",
+            "request": "launch",
+            "mainClass": "com.micro.device_service.DeviceServiceApplication",
+            "projectName": "device_service"
+        },
+        {
+            "type": "java",
+            "name": "HomeEnergyTrackerApplication",
+            "request": "launch",
+            "mainClass": "com.micro.user_service.HomeEnergyTrackerApplication",
+            "projectName": "home-energy-tracker"
+        },
         {
             "type": "java",
             "name": "Spring Boot-HomeEnergyTrackerApplication<home-energy-tracker>",
