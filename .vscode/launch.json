@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlertServiceApplication",
+            "request": "launch",
+            "mainClass": "com.micro.alert_service.AlertServiceApplication",
+            "projectName": "alert-service"
+        },
+        {
+            "type": "java",
             "name": "UsageServiceApplication",
             "request": "launch",
             "mainClass": "com.micro.usage_service.UsageServiceApplication",

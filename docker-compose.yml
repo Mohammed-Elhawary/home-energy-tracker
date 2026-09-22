@@ -80,6 +80,13 @@ services:
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=myToken
     volumes:
       - ./docker/influxdb_data:/var/lib/influxdb2
+    
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: mailpit
+    ports:
+      - "8025:8025"
+      - "1025:1025"
 
 volumes:
   db_data:
