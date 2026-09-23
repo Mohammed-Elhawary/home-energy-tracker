@@ -1,5 +1,7 @@
 package com.micro.device_service.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.micro.device_service.dto.DeviceDto;
@@ -41,7 +43,7 @@ public class DeviceService {
         existingDevice.setDeviceName(deviceDto.getDeviceName());
         existingDevice.setDeviceType(deviceDto.getDeviceType());
         existingDevice.setLocation(deviceDto.getLocation());
-        existingDevice.setUserId(deviceDto.getUserId());    
+        existingDevice.setUserId(deviceDto.getUserId());
 
         Devices updatedDevice = deviceRepository.save(existingDevice);
         return mapToDto(updatedDevice);
@@ -54,13 +56,13 @@ public class DeviceService {
     }
 
     private DeviceDto mapToDto(Devices device) {
-        return DeviceDto.builder()
-                .id(device.getId())
-                .deviceName(device.getDeviceName())
-                .deviceType(device.getDeviceType())
-                .location(device.getLocation())
-                .userId(device.getUserId())
-                .build();
+        return DeviceDto.builder().id(device.getId()).deviceName(device.getDeviceName())
+                .deviceType(device.getDeviceType()).location(device.getLocation()).userId(device.getUserId()).build();
+    }
+
+    public List<DeviceDto> getAllDeviceForUser(Long userId) {
+        List<Devices> devices = deviceRepository.findAllDevicesByUserId(userId);
+        return devices.stream().map(this::mapToDto).toList();
     }
 
 }

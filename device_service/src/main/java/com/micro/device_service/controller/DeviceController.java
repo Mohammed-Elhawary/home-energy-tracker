@@ -1,5 +1,7 @@
 package com.micro.device_service.controller;
 
+import java.util.List;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -40,6 +42,13 @@ public class DeviceController {
         // Implement the update logic in the service layer
         DeviceDto updatedDevice = deviceService.updateDevice(deviceId, deviceDto);
         return ResponseEntity.ok(updatedDevice);
+    }
+
+   @GetMapping ("/users/{userId}")
+    public ResponseEntity<List<DeviceDto>> getAllDevices(@PathVariable Long userId) {
+        // Implement the update logic in the service layer
+        List<DeviceDto> devices = deviceService.getAllDeviceForUser(userId);
+        return ResponseEntity.ok(devices);
     }
 
     @DeleteMapping("/delete/{deviceId}")

@@ -1,1 +1,10 @@
-docker/kafka_data/
+# 1. المجلدات والملفات المخفية وإعدادات المحرر
+.kilo/
+.vscode/
+*.log
+
+docker/*
+
+!docker/*/
+
+docker/*/**

@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.micro.usage_service.dto.DeviceDto;
 import com.micro.usage_service.dto.UserDTo;
 
 @Component

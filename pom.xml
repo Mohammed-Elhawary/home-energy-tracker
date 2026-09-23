@@ -25,6 +25,7 @@
         <module>device_service</module>
         <module>ingestion_service</module>
         <module>usage_service</module>
+        <module>insight-service</module>
     </modules>
 
     <properties>

@@ -1,56 +1,63 @@
-{
-    "configurations": [
-        {
-            "type": "java",
-            "name": "AlertServiceApplication",
-            "request": "launch",
-            "mainClass": "com.micro.alert_service.AlertServiceApplication",
-            "projectName": "alert-service"
-        },
-        {
-            "type": "java",
-            "name": "UsageServiceApplication",
-            "request": "launch",
-            "mainClass": "com.micro.usage_service.UsageServiceApplication",
-            "projectName": "usage-service"
-        },
-        {
-            "type": "java",
-            "name": "IngestionServiceApplication",
-            "request": "launch",
-            "mainClass": "com.micro.ingestion_service.IngestionServiceApplication",
-            "projectName": "ingestion_service"
-        },
-        {
-            "type": "java",
-            "name": "HomeEnergyTrackerApplication",
-            "request": "launch",
-            "mainClass": "com.micro.user_service.HomeEnergyTrackerApplication",
-            "projectName": "User-service"
-        },
-        {
-            "type": "java",
-            "name": "DeviceServiceApplication",
-            "request": "launch",
-            "mainClass": "com.micro.device_service.DeviceServiceApplication",
-            "projectName": "device_service"
-        },
-        {
-            "type": "java",
-            "name": "HomeEnergyTrackerApplication",
-            "request": "launch",
-            "mainClass": "com.micro.user_service.HomeEnergyTrackerApplication",
-            "projectName": "home-energy-tracker"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-HomeEnergyTrackerApplication<home-energy-tracker>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.micro.home_energy_tracker.HomeEnergyTrackerApplication",
-            "projectName": "home-energy-tracker",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        }
-    ]
-}
+    {
+        "configurations": [
+            {
+                "type": "java",
+                "name": "InsghtServiceApplication",
+                "request": "launch",
+                "mainClass": "com.micro.insight_service.InsghtServiceApplication",
+                "projectName": "insght-service"
+            },
+            {
+                "type": "java",
+                "name": "AlertServiceApplication",
+                "request": "launch",
+                "mainClass": "com.micro.alert_service.AlertServiceApplication",
+                "projectName": "alert-service"
+            },
+            {
+                "type": "java",
+                "name": "UsageServiceApplication",
+                "request": "launch",
+                "mainClass": "com.micro.usage_service.UsageServiceApplication",
+                "projectName": "usage-service"
+            },
+            {
+                "type": "java",
+                "name": "IngestionServiceApplication",
+                "request": "launch",
+                "mainClass": "com.micro.ingestion_service.IngestionServiceApplication",
+                "projectName": "ingestion_service"
+            },
+            {
+                "type": "java",
+                "name": "HomeEnergyTrackerApplication",
+                "request": "launch",
+                "mainClass": "com.micro.user_service.HomeEnergyTrackerApplication",
+                "projectName": "User-service"
+            },
+            {
+                "type": "java",
+                "name": "DeviceServiceApplication",
+                "request": "launch",
+                "mainClass": "com.micro.device_service.DeviceServiceApplication",
+                "projectName": "device_service"
+            },
+            {
+                "type": "java",
+                "name": "HomeEnergyTrackerApplication",
+                "request": "launch",
+                "mainClass": "com.micro.user_service.HomeEnergyTrackerApplication",
+                "projectName": "home-energy-tracker"
+            },
+            {
+                "type": "java",
+                "name": "Spring Boot-HomeEnergyTrackerApplication<home-energy-tracker>",
+                "request": "launch",
+                "cwd": "${workspaceFolder}",
+                "mainClass": "com.micro.home_energy_tracker.HomeEnergyTrackerApplication",
+                "projectName": "home-energy-tracker",
+                "args": "",
+                "envFile": "${workspaceFolder}/.env"
+            }
+        ]
+    }
