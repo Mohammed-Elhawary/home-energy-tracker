@@ -2,6 +2,13 @@
         "configurations": [
             {
                 "type": "java",
+                "name": "ApiGetwayApplication",
+                "request": "launch",
+                "mainClass": "com.micro.api_getway.ApiGetwayApplication",
+                "projectName": "api-getway"
+            },
+            {
+                "type": "java",
                 "name": "InsghtServiceApplication",
                 "request": "launch",
                 "mainClass": "com.micro.insight_service.InsghtServiceApplication",
