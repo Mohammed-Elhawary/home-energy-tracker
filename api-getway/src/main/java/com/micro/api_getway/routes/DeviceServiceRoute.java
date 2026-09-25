@@ -14,25 +14,23 @@ import org.springframework.web.servlet.function.RouterFunction;
 import org.springframework.web.servlet.function.ServerResponse;
 
 @Configuration
-public class UserServiceRoute {
+public class DeviceServiceRoute {
 
     @Bean
-    public RouterFunction<ServerResponse> userRoutes() {
-        return route("User-service")
-                .route(RequestPredicates.path("/api/v1/users/**"), http())
-                .before(uri("http://localhost:8080"))
-                .filter(CircuitBreakerFilterFunctions.circuitBreaker("userServiceCircuitBreaker",
-                        URI.create("forward:/fallback/user-service")))
+    public RouterFunction<ServerResponse> deviceRoutes() {
+        return route("device_service").route(RequestPredicates.path("/api/v1/devices/**"), http())
+                .before(uri("http://localhost:8081")).filter(CircuitBreakerFilterFunctions
+                .circuitBreaker("DeviceServiceCircuitBreaker", URI.create("forward:/fallback/Device-service")))
                 .build();
     }
 
     @Bean
-    public RouterFunction<ServerResponse> userServiceApi() {
-        return route("user-service-route")
-                .route(RequestPredicates.path("/docs/user-service/v3/api-docs"), http())
-                .before(uri("http://localhost:8080"))
-                .filter(setPath("/v3/api-docs")) 
+    public RouterFunction<ServerResponse> deviceServiceApi() {
+        return route("device-service-route")
+                .route(RequestPredicates.path("/docs/device-service/v3/api-docs"), http())
+                .before(uri("http://localhost:8081"))
+                .filter(setPath("/v3/api-docs"))
                 .build();
     }
-
+    
 }
