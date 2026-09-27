@@ -1,0 +1,12 @@
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/kafka/event/AlertingEvent.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/kafka/event/EnergyUsageEvent.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/UsageServiceApplication.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/client/DeviceClient.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/client/UserClient.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/config/InfluxDbConfig.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/controller/UsageController.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/dto/DeviceDto.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/dto/UsageDto.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/dto/UserDTo.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/model/DeviceEnergy.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/usage-service/src/main/java/com/micro/usage_service/service/UsageService.java

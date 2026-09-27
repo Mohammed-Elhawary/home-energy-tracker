@@ -1,0 +1,8 @@
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/ApiGetwayApplication.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/config/FallbackConfig.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/config/SecurityConfig.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/routes/DeviceServiceRoute.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/routes/IngestionServiceRoute.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/routes/InsightServiceRoute.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/routes/UsageServiceRoute.java
+/home/mohamed-elhawary/java/Micro Service/home-energy-tracker/api-getway/src/main/java/com/micro/api_getway/routes/UserServiceRoute.java
