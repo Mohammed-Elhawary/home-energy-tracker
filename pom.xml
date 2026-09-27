@@ -24,10 +24,10 @@
         <module>User-service</module>
         <module>alert-service</module>
         <module>device_service</module>
-        <module>ingestion_service</module>
-        <module>usage_service</module>
+        <module>ingestion-service</module>
+        <module>usage-service</module>
         <module>insight-service</module>
-        <module>api-getway</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
