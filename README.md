@@ -1,5 +1,5 @@
 # Home Energy Tracker
-![Demo](docs/demo.gif)
+![Demo](docs/home-energy-tracker.gif)
 A microservices-based **Home Energy Tracker** application built with **Spring Boot 4.1**, **Java 21**, and a streaming architecture powered by **Apache Kafka**. The system ingests energy usage data from smart devices, stores historical usage in **InfluxDB**, manages users and devices in **MariaDB**, evaluates consumption thresholds, sends email alerts, and generates AI-powered energy-saving recommendations via **NVIDIA NIM (z-ai/glm-5.3)**.
 
 ## Table of Contents
